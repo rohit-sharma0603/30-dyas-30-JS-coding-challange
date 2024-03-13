@@ -1,4 +1,4 @@
-
+console.time("forTime");
 const myObj={
     value:0,
     increment:function (){
@@ -16,3 +16,4 @@ const myObj={
 };
 const result=myObj.increment().increment().double().getValue();
 console.log(result);
+console.timeEnd("forTime")
